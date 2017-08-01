@@ -1,0 +1,21 @@
+# Site settings
+title: Cat Codes
+header-img: img/home-bg.png
+email: catcreates13@gmail.com
+copyright_name: catherinism
+description: > # this means to ignore newlines until "baseurl:"
+  My Coding Journey
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: cathara22
+github_username:  catherinism
+learn_profile: catherinism
+email_username: catcreates13@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
