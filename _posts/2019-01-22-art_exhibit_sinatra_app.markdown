@@ -10,11 +10,12 @@ For my [Sinatra project](https://github.com/catherinism/art-exhibit-sinatra-app)
 
 This app will allow a user to create an account, add a new exhibit and see others' exhibit posts as well. Below are some of my project's screenshots. 
 
-![](https://imgur.com/a/qrF7eW4)
+![](http://i66.tinypic.com/1448vvs.jpg)
 
-![](https://imgur.com/a/jzoZDkl)
+![](http://i63.tinypic.com/ab0ztl.jpg)
 
-![](https://imgur.com/a/JjXTe4q)
+![](http://i64.tinypic.com/opps89.jpg)
+
 
 As you can see, I put some style to it although it's not required. I was inspired by other Flatiron students' projects, particularly Razelle's [Andromeda project](https://github.com/avelineamour/andromeda-project). It was really well done!
 
