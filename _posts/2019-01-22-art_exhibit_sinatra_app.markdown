@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Art Exhibit Sinatra App"
-date:       2019-01-23 02:26:00 +0000
+date:       2019-01-22 21:26:01 -0500
 permalink:  art_exhibit_sinatra_app
 ---
 
