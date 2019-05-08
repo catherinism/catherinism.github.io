@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Kid-Friendly Travel Guide Rails App"
-date:       2019-05-08 23:08:30 +0000
+date:       2019-05-08 19:08:31 -0400
 permalink:  kid-friendly_travel_guide_rails_app
 ---
 
@@ -13,7 +13,7 @@ Initially, I planned to do my last Sinatra project in Rails. However, I found ou
 
 This was one of the most challenging part, I think. Thankfully, I got the chance to meet up with Tadea and Ludmilla again in NYC (WeWork). They are also FS students, and Tadea happened to be doing her Rails project as well. It was a weekend so there weren't many people in there, and we got to use one of the conference rooms. Ludmilla, who is already in the Javascript section, willingly laid out on the whiteboard/big screen how we are going to approach the project, figure out our associations, etc.
 
-After hours of brainstorming, I decided to build a Family-friendly Travel Guide app since I love to travel with my family. See the structure below.
+After hours of brainstorming, I decided to build a Family-friendly Travel Guide application since I love to travel with my family. See the structure below.
 
 ![](http://i65.tinypic.com/mr2zdi.png)
 
