@@ -53,7 +53,7 @@ Tip: Don't forget to *bundle install*. Also, I read that `turbolinks` doesn't go
 
 **4. Require directives to the *application.js* file**
 
-Mine looks like this:
+**application.js**
 
 ```
 //= require jquery
@@ -66,11 +66,11 @@ Mine looks like this:
 
 `//= require guides` is my `guides.js` file. If needed, reread the [Javascript Manifests Lesson](https://learn.co/tracks/full-stack-web-development-v7/rails-and-javascript/asset-pipeline/javascript-manifests)
 
-**5. Add serializer**
+**5. Add Serializer**
 
 I only added one serializer file to my serializer folder. Run `rails g serializer filename`
 
-My serializer looks like this:
+**serializers/guide_serializer.rb**
 
 ```
 class GuideSerializer < ActiveModel::Serializer
@@ -83,7 +83,7 @@ end
 
 **6. Render JSON**
 
-I put JSON to my `index`, `create`, and `show` methods in my `guides_controller.rb` file
+I put JSON to my `index`, `create`, and `show` methods in my `guides_controller.rb` file. To know that it's working, go to your localhost:3000/index.json or localhost:3000/index/id.json
 
 **INDEX**
 ```
@@ -131,6 +131,8 @@ def show
 **7. Start coding in your JS file**
 
 Although I had to make some changes to my layout, views, and other files, I spent more time coding in my guides.js file. Following along the videos I mentioned above really helped me finish this project.
+
+**guides.js**
 
 ```
 $(document).ready(function() {
@@ -259,11 +261,19 @@ Guide.prototype.formatShow = function() {
 }
 ```
 
-> I wanted my images to show just like in my Rails project, but I realized that it's more important to understand and finish this project first then go back to it at a later time.
+> I wanted my images to show just like in my Rails project but I don't know how at the moment. I realized that it's more important to understand and finish this project first, and I can always go back and improve it at a later time.
+
+
+*RAILS PROJECT SCREENSHOTS*
 
 ![](http://i66.tinypic.com/2i93w5f.png)
 
 ![](http://i63.tinypic.com/124x84w.png)
+
+**More tips (more like learn from my mistakes)**
+1. don't forget to use back ticks 
+2. know the difference between .container and #container
+3. don't forget your } brackets
 
 
 Hope this can help other students who are about to do their Rails with JS projects. Can't wait to start React!
