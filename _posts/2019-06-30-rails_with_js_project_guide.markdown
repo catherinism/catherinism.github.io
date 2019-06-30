@@ -10,11 +10,13 @@ No idea how to start your Rails with Javascript portfolio project? You're not th
 
 Here are the steps I took for my Rails with JS project:
 
-* I set up a meeting with the current JavaScript Project Section Coach, Dalia Sawaya, and she was very helpful in making me understand what the project requires. She also explained:
+1. I set up a meeting with the current JavaScript Project Section Coach, Dalia Sawaya, and she was very helpful in making me understand what the project requires. She also explained:
 
 Javascript Model Object = *Javascript version of a Ruby Object*
+
 Prototype Function = *an instance method in Ruby*
-Constructor Function = I*nitialize in Ruby*
+
+Constructor Function =* Initialize in Ruby*
 
 Additionally, she recommended the following videos:
 
@@ -26,20 +28,20 @@ Additionally, she recommended the following videos:
 
 I would also recommend you watch this [Rails JS study group](https://youtu.be/b93S2_Hc8z8) by Brad Smith.
 
-* Although I think I could have just continued my Rails project or create a branch, I decided to make a duplicate of that project instead.
+2. Although I think I could have just continued my Rails project or create a branch, I decided to make a duplicate of that project instead.
 
-1. Create a new repository - in my case, I named it family-friendly-travel-guide-js
-2. Duplicate my Rails project repo by following [these steps](https://help.github.com/en/articles/duplicating-a-repository)
+* Create a new repository - in my case, I named it `family-friendly-travel-guide-js`
+* Duplicate project repo by following [these steps](https://help.github.com/en/articles/duplicating-a-repository)
 
-* Added these gems to my Gemfile
+3. Added these gems to my Gemfile
 ```
 gem 'jquery-rails'
 gem 'active_model_serializers'
 ```
 
-Tip: Don't forget to bundle install. Also, I read that `turbolinks` doesn't go well with `jquery-rails`. I don't know exactly why but when I removed it from my *Gemfile* and *application.js*, my project ran more smoothly and it stopped me from refreshing my index because it used to not render via JSON right away.
+Tip: Don't forget to bundle install. Also, I read that `turbolinks` doesn't go well with `jquery-rails`. I don't know exactly why but when I removed it from my *Gemfile* and *application.js*, my project ran more smoothly and it stopped me from frequently refreshing my index because it used to not render via JSON right away.
 
-*  Required directives to the *application.js* file
+4. Required directives to the *application.js* file
 
 Mine looks like this:
 
@@ -54,7 +56,7 @@ Mine looks like this:
 
 `//= require guides` is my `guides.js` file. If needed, reread the [Javascript Manifests Lesson](https://learn.co/tracks/full-stack-web-development-v7/rails-and-javascript/asset-pipeline/javascript-manifests)
 
-* Added serializer
+5. Added a serializer
 I only added one serializer file to my serializer folder. Run `rails g serializer filename`
 
 My serializer looks like this:
@@ -68,8 +70,8 @@ class GuideSerializer < ActiveModel::Serializer
 end
 ```
 
-* Render JSON
-I put JSON to my `index`, `show`, and `create` methods in my `guides_controller.rb` file
+6. Render JSON
+I put JSON to my `index`, `create`, and `show` methods in my `guides_controller.rb` file
 
 **INDEX**
 ```
@@ -113,6 +115,8 @@ def show
     end**
   end
 ```
+
+
 
 
 
