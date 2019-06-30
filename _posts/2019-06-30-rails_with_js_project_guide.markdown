@@ -34,7 +34,7 @@ gem 'jquery-rails'
 gem 'active_model_serializers'
 ```
 
-Tip: Don't forget to bundle install. Also, as I read that Turbolinks doesn't go well with jquery-rails. I don't know exactly why but when I removed it from my Gemfile and application.js, my project ran more smoothly and it stopped me from refreshing my index because it used to not render it via JSON but Rails.
+Tip: Don't forget to bundle install. Also, I read that Turbolinks doesn't go well with jquery-rails. I don't know exactly why but when I removed it from my Gemfile and application.js, my project ran more smoothly and it stopped me from refreshing my index because it used to not render it via JSON but Rails.
 
 *  Required directives to the application.js file
 ```
@@ -45,3 +45,8 @@ Tip: Don't forget to bundle install. Also, as I read that Turbolinks doesn't go 
 ```
 
 [Reread Javascript Manifests](https://learn.co/tracks/full-stack-web-development-v7/rails-and-javascript/asset-pipeline/javascript-manifests)
+
+* Added serializer
+ You can generate a serializer by runni
+
+
