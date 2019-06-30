@@ -34,18 +34,85 @@ gem 'jquery-rails'
 gem 'active_model_serializers'
 ```
 
-Tip: Don't forget to bundle install. Also, I read that Turbolinks doesn't go well with jquery-rails. I don't know exactly why but when I removed it from my Gemfile and application.js, my project ran more smoothly and it stopped me from refreshing my index because it used to not render it via JSON but Rails.
+Tip: Don't forget to bundle install. Also, I read that `turbolinks` doesn't go well with `jquery-rails`. I don't know exactly why but when I removed it from my *Gemfile* and *application.js*, my project ran more smoothly and it stopped me from refreshing my index because it used to not render via JSON right away.
 
-*  Required directives to the application.js file
+*  Required directives to the *application.js* file
+
+Mine looks like this:
+
 ```
 //= require jquery
 //= require rails-ujs
-//= require your-js-file
+//= require bootstrap-sprockets
+//= require activestorage
+//= require guides
 //= require_tree .
 ```
 
-[Reread Javascript Manifests](https://learn.co/tracks/full-stack-web-development-v7/rails-and-javascript/asset-pipeline/javascript-manifests)
+`//= require guides` is my `guides.js` file. If needed, reread the [Javascript Manifests Lesson](https://learn.co/tracks/full-stack-web-development-v7/rails-and-javascript/asset-pipeline/javascript-manifests)
 
-* Added serializers
+* Added serializer
+I only added one serializer file to my serializer folder. Run `rails g serializer filename`
+
+My serializer looks like this:
+
+```
+class GuideSerializer < ActiveModel::Serializer
+  attributes :id, :title, :summary, :lodging, :itinerary, :destination_location, :airport, :baby_gear_rental, :park, :zoo, :restaurant, :luggage_storage
+
+  belongs_to :destination
+  has_many :ratings
+end
+```
+
+* Render JSON
+I put JSON to my `index`, `show`, and `create` methods in my `guides_controller.rb` file
+
+**INDEX**
+```
+
+  def index
+    if !params[:destination_id].blank?
+      @destination_id = Destination.find_by(id: params[:destination_id]).id
+      @guides = Guide.where(destination_id: @destination_id)
+    else
+      @guides = Guide.all
+    **  respond_to do |f|
+        f.html {render :index}
+        f.json {render json: @guides}
+      end**
+    end
+  end
+```
+
+**CREATE**
+
+```
+def create
+    @guide = current_user.guides.build(guide_params)
+    @guide.user_id = current_user.id
+    if @guide.save
+    **  render json: @guide**
+    else
+      flash[:message] = "#{@guide.errors.full_messages.to_sentence}."
+      render :new
+    end
+  end
+```
+
+**SHOW**
+
+```
+def show
+ **   respond_to do |f|
+      f.html {render :show}
+      f.json {render json: @guide}
+    end**
+  end
+```
+
+
+
+
 
 
