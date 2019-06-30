@@ -29,7 +29,9 @@ Constructor Function = *Initialize in Ruby*
 Additionally, she recommended the following videos:
 
 [Debugging in Chrome Dev Tools with JS](https://developers.google.com/web/tools/chrome-devtools/javascript/)
+
 [Index and Show requirement](https://www.youtube.com/watch?v=oHPM0ekV7zQ)
+
 [Form Submission requirement](https://www.youtube.com/watch?v=Yd0nH9CWWfo&amp=&feature=youtu.be)
 
 I would also recommend you watch this [Rails JS study group](https://youtu.be/b93S2_Hc8z8) by Brad Smith.
