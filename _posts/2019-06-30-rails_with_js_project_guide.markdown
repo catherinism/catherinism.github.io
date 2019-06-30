@@ -41,7 +41,7 @@ I would also recommend you watch this [Rails JS study group](https://youtu.be/b9
 Although I think I could have just continued my Rails project or create a branch, I decided to make a duplicate of that project instead.
 
 * Create a new repository - in my case, I named it `family-friendly-travel-guide-js`
-* Duplicate Rails project repo by following **[these steps]**(https://help.github.com/en/articles/duplicating-a-repository)
+* Duplicate Rails project repo by following [these steps](https://help.github.com/en/articles/duplicating-a-repository)
 
 **3. Add these gems to your *Gemfile***
 ```
@@ -130,7 +130,7 @@ def show
 
 **7. Start coding in your JS file**
 
-Although I had to make some changes to my layout, views, and other files, most of my time were spend coding in my guides.js file. Following along the videos I mentioned above really helped me finish this project.
+Although I had to make some changes to my layout, views, and other files, I spent more time coding in my guides.js file. Following along the videos I mentioned above really helped me finish this project.
 
 ```
 $(document).ready(function() {
