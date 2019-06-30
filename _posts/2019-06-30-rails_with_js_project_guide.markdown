@@ -271,7 +271,7 @@ Guide.prototype.formatShow = function() {
 ![](http://i63.tinypic.com/124x84w.png)
 
 **More tips (more like learn from my mistakes)**
-1. don't forget to use back ticks 
+1. don't forget to use back ticks when needed 
 2. know the difference between .container and #container
 3. don't forget your } brackets
 
