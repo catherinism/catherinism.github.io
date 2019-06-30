@@ -10,6 +10,8 @@ No idea how to start your Rails with Javascript portfolio project? You're not th
 
 **Project Walkthrough**
 
+> I wanted my images to show just like in my Rails project, but I realized that it's more important to understand and finish this project and I can always go back to it at a later time.
+
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Wk4fen__e_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -129,7 +131,7 @@ def show
 
 **7. Start coding in your JS file**
 
-This is how my guides.js file looks like. I followed along the videos I mentioned above.
+Although I had to make some changes to my layout, views, and other files, most of my time were spend coding in my guides.js file. Following along the videos I mentioned above really helped me finish this project.
 
 > $(document).ready(function() {
 >   // console.log('hello')
