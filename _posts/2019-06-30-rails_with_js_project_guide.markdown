@@ -41,7 +41,7 @@ I would also recommend you watch this [Rails JS study group](https://youtu.be/b9
 Although I think I could have just continued my Rails project or create a branch, I decided to make a duplicate of that project instead.
 
 * Create a new repository - in my case, I named it `family-friendly-travel-guide-js`
-* Duplicate Rails project repo by following [these steps](https://help.github.com/en/articles/duplicating-a-repository)
+* Duplicate Rails project repo by following **[these steps]**(https://help.github.com/en/articles/duplicating-a-repository)
 
 **3. Add these gems to your *Gemfile***
 ```
@@ -49,7 +49,7 @@ gem 'jquery-rails'
 gem 'active_model_serializers'
 ```
 
-Tip: Don't forget to *bundle install*. Also, I read that `turbolinks` doesn't go well with `jquery-rails`. I don't know exactly why but when I removed it from my *Gemfile* and *application.js*, my project ran more smoothly and it stopped me from refreshing my index because it used to not render via JSON right away.
+Tip: Don't forget to *bundle install*. Also, I read that `turbolinks` doesn't go well with `jquery-rails`. I don't know exactly why but when I removed it from my *Gemfile* and *application.js*, my project ran more smoothly and it stopped me from frequently refreshing my index because it used to not render via JSON right away.
 
 **4. Require directives to the *application.js* file**
 
