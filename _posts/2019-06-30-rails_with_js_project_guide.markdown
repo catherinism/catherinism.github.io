@@ -46,7 +46,6 @@ Tip: Don't forget to bundle install. Also, I read that Turbolinks doesn't go wel
 
 [Reread Javascript Manifests](https://learn.co/tracks/full-stack-web-development-v7/rails-and-javascript/asset-pipeline/javascript-manifests)
 
-* Added serializer
- You can generate a serializer by runni
+* Added serializers
 
 
