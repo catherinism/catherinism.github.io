@@ -15,7 +15,7 @@ No idea how to start your Rails with Javascript portfolio project? You're not th
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Wk4fen__e_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# Here are the steps I took for my Rails with JS project:
+***Here are the steps I took for my Rails with JS project:***
 
 **1. Meet up with your project section coach**
 
