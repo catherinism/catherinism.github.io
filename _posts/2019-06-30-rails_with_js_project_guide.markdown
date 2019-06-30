@@ -10,13 +10,8 @@ No idea how to start your Rails with Javascript portfolio project? You're not th
 
 **Project Walkthrough**
 
-> I wanted my images to show just like in my Rails project, but I realized that it's more important to understand and finish this project and I can always go back to this at a later time.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Wk4fen__e_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-PREVIOUS RAILS PROJECT
-
-![](http://i66.tinypic.com/2i93w5f.png)  ![](http://i63.tinypic.com/124x84w.png)
 
 
 ***Here are the steps I took for my Rails with JS project:***
@@ -263,6 +258,12 @@ Guide.prototype.formatShow = function() {
   return guideHtml
 }
 ```
+
+> I wanted my images to show just like in my Rails project, but I realized that it's more important to understand and finish this project first then go back to it at a later time.
+
+![](http://i66.tinypic.com/2i93w5f.png)
+
+![](http://i63.tinypic.com/124x84w.png)
 
 
 Hope this can help other students who are about to do their Rails with JS projects. Can't wait to start React!
