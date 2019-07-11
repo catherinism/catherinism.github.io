@@ -180,7 +180,7 @@ console.log(valueName) // undefined
 var valueName = "John"
 ```
 
-Only the *variable* declaration `var valueName` was hoisted but not the initialization valueName = "John"
+Only the *variable* declaration `var valueName` was hoisted but not the initialization `valueName = "John"`
 
 *  function expressions
 
