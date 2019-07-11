@@ -139,7 +139,7 @@ John // the only value returned because valueName has a function scope. The othe
 
 ![](http://i68.tinypic.com/14tomxl.png)
 
-*This is how I imagine how hoisting looks like, and inside the container are declarations that can be hoisted*
+This is how I imagine how hoisting looks like, and inside the container are declarations that can be hoisted
 
 Simple Example:
 
