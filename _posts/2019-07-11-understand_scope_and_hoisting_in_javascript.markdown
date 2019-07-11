@@ -25,7 +25,7 @@ In this example, we assigned the *string* `"John"` to the `valueName` using the 
 | const   | block |   |    |    |    |
 
 
-## SCOPE
+**## SCOPE**
 
 *Scope* dictates a portion of a program where a particular *variable* is accessible or visible. 
 
