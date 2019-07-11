@@ -25,12 +25,11 @@ In this example, we assigned the *string* `"John"` to the `valueName` using the 
 | const   | block |   |    |    |    |
 
 
-**## SCOPE**
+**SCOPE**
 
 *Scope* dictates a portion of a program where a particular *variable* is accessible or visible. 
 
-# SCOPE TYPES
-
+**SCOPE TYPES**
 
 ***Global Scope*** - *variables* declared outside of a *block {}* are accessible across the program. And as mentioned above, if you don't use any of the 3 variable keywords, the variable will have a global scope. This is something that developers are told to avoid.
 
@@ -65,7 +64,7 @@ function scope() {
 }
 ```
 
-#### LOCAL SCOPE SUBTYPES
+**LOCAL SCOPE SUBTYPES**
 
 
 **Function Scope** - *variables* inside the function are only accessible within the function
@@ -134,7 +133,7 @@ scope()
 John // the only value returned because valueName has a function scope. The others will get a reference error(not defined)
 ```
 
-## HOISTING
+**HOISTING**
 
 *Hoisting* is when the variable or function declarations are hoisted or moved to the top. Remember that *hoisting* only happens with *function declaration*, not *function expression*. During the compilation process, the *variable* and *function declarations* are put into memory, then later get interpreted.
 
@@ -196,10 +195,6 @@ var valueName = function() {
 Only the *variable* declaration `var valueName` was hoisted but not the assignment of the *function* to `valueName`.
 
 Knowing what cannot be moved to the top helped me comprehend more how *hoisting* works.
-
-
-
-
 
 
 I hope this brief explanation somehow cleared up any confusion you may have regarding JavaScript's *scope* and *hoisting*. Happy coding!
