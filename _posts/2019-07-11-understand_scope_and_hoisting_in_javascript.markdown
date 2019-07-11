@@ -31,7 +31,7 @@ In this example, we assigned the *string* `"John"` to the `valueName` using the 
 
 **SCOPE TYPES**
 
-***Global Scope*** - *variables* declared outside of a *block {}* are accessible across the program. And as mentioned above, if you don't use any of the 3 variable keywords, the variable will have a global scope. This is something that developers are told to avoid.
+***Global Scope*** - *variables* declared outside of a *block {}* are accessible across the program. And as mentioned above, if you don't use any of the 3 *variable* keywords, the *variable* will have a global scope. This is something that developers are told to avoid.
 
 
 ```
@@ -140,6 +140,7 @@ John // the only value returned because valueName has a function scope. The othe
 <center>![](http://i68.tinypic.com/14tomxl.png)</center>
 <center>*This is how I imagine hoisting looks like, and inside the container are declarations that can be hoisted*</center>
 
+![](http://i68.tinypic.com/14tomxl.png)
 
 Simple Example:
 
