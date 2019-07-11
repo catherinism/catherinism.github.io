@@ -194,7 +194,7 @@ var valueName = function() {
 
 Only the *variable* declaration `var valueName` was hoisted but not the assignment of the *function* to `valueName`.
 
-Knowing what cannot be moved to the top helped me comprehend more how *hoisting* works.
+For some reason, knowing what cannot be moved to the top helped me comprehend more how *hoisting* works.
 
 
 I hope this brief explanation somehow cleared up any confusion you may have regarding JavaScript's *scope* and *hoisting*. Happy coding!
