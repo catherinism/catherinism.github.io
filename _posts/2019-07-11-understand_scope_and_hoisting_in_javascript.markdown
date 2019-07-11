@@ -91,7 +91,7 @@ console.log(valueName) // Reference error: "valueName is not defined"
 ```
 
 
-**Block Scope** - variables defined inside a block {} using *let* or *const*  cannot be accessed outside the block while  *var* can be accessed outside the block
+**Block Scope** - variables defined inside a block {} using *let* or *const*  cannot be accessed outside that block while  *var* can be accessed outside of that block
 
 ```
 function scope() {
