@@ -137,10 +137,9 @@ John // the only value returned because valueName has a function scope. The othe
 
 *Hoisting* is when the variable or function declarations are hoisted or moved to the top. Remember that *hoisting* only happens with *function declaration*, not *function expression*. During the compilation process, the *variable* and *function declarations* are put into memory, then later get interpreted.
 
-<center>![](http://i68.tinypic.com/14tomxl.png)</center>
-<center>*This is how I imagine hoisting looks like, and inside the container are declarations that can be hoisted*</center>
-
 ![](http://i68.tinypic.com/14tomxl.png)
+
+*This is how I imagine how hoisting looks like, and inside the container are declarations that can be hoisted*
 
 Simple Example:
 
