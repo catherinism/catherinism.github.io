@@ -139,26 +139,26 @@ John // the only value returned because valueName has a function scope. The othe
 
 ![](http://i68.tinypic.com/14tomxl.png)
 
-This is how I imagine how hoisting looks like, and inside the container are declarations that can be hoisted
+This is how I imagine how hoisting looks like, and inside the container are declarations that can be hoisted:)
 
 Simple Example:
 
 ```
-valueName("Joe") // called before valueName(name) function was declared
+valueName("John") // called before valueName(name) function was declared
 
 function valueName(name) {
   console.log("My name is " + name)
 }
 ```
 
-The result will be *"My name is Joe"* because `valueName(name)` was hoisted to the top. Although *hoisting* doesn't move any of your code physically, it still looks as if:
+The result will be *"My name is John"* because `valueName(name)` was hoisted to the top. Although *hoisting* doesn't move any of your code physically, it still looks as if:
 
 ```
 function valueName(name) {
   console.log("My name is " + name)
 }
 
-valueName("Joe")
+valueName("John")
 ```
 
 **NOT HOISTED**
@@ -169,7 +169,7 @@ valueName("Joe")
 valueName() // ReferenceError: Cannot access 'varName' before initialization
 
 const valueName = function() {
-   console.log("Joe")
+   console.log("John")
 }
 ```
 
@@ -188,7 +188,7 @@ Only the *variable* declaration `var valueName` was hoisted but not the initiali
 valueName() // TypeError: expression is not a function
 
 var valueName = function() {
-   console.log("Joe")
+   console.log("John")
 }
 ```
 
