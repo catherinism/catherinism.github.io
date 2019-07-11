@@ -29,7 +29,7 @@ In this example, we assigned the *string* `"John"` to the `valueName` using the 
 
 *Scope* dictates a portion of a program where a particular *variable* is accessible or visible. 
 
-### SCOPE TYPES
+# SCOPE TYPES
 
 
 ***Global Scope*** - *variables* declared outside of a *block {}* are accessible across the program. And as mentioned above, if you don't use any of the 3 variable keywords, the variable will have a global scope. This is something that developers are told to avoid.
