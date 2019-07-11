@@ -14,7 +14,7 @@ For example:
 
 `var valueName = "John"`
 
-In this example, we assigned the *string* `"John"` to the `valueName` using the variable keyword `var`. If you don't use any of the 3 *variable* keywords, the *variable* will have a global scope.
+In this example, we assigned the *string* `"John"` to the `valueName` using the *variable* keyword `var`. If you don't use any of the 3 *variable* keywords, the *variable* will have a global scope.
 
 `var` is the only keyword that was used to declare a *variable* before ES6. Take a look at the table below to better understand the differences between `var`, `let`, and `const`. This will give you a good grasp of how *hoisting* and *scope* work.
 
@@ -139,7 +139,7 @@ John // the only value returned because valueName has a function scope. The othe
 
 ![](http://i68.tinypic.com/14tomxl.png)
 
-This is how I imagine how hoisting looks like, and inside the container are declarations that can be hoisted:)
+This is how I imagine how hoisting looks like; and inside the container are declarations that can be hoisted:)
 
 Simple Example:
 
