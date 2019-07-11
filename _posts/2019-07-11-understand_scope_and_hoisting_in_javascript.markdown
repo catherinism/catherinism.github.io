@@ -1,20 +1,20 @@
 ---
 layout: post
 title:      "Understand Scope & Hoisting in JavaScript"
-date:       2019-07-11 23:08:43 +0000
+date:       2019-07-11 19:08:44 -0400
 permalink:  understand_scope_and_hoisting_in_javascript
 ---
 
 
 If you're new to JavaScript, you might have encountered *scope* and *hoisting* and wondered what they are about or how they work.  It is important to learn these concepts as they will benefit you as you learn more about JavaScript, or once you start building JS applications. In this article, we will take a look at these two concepts and understand how *variables* affect them. 
 
-But what are *variables*? Like many programming languages, *variables* are containers for storing data values. These data values can be any data types like *strings*, *numbers*, or *objects*, and they can also be later reassigned or modified. The keywords to declare a value are `var`, `let`, and `const`. To declare a value, you need to assign it a name. 
+But what are *variables*? Like in many programming languages, *variables* are containers for storing data values. These data values can be any data types like *strings*, *numbers*, or *objects*, and they can also be later reassigned or modified. The keywords to declare a value are `var`, `let`, and `const`. To declare a value, you need to assign it a name. 
 
 For example:
 
 `var valueName = "John"`
 
-In this example, we assigned the *string* `"Joe"` to the `valueName` using the variable keyword `var`. If you don't use any of the 3 *variable* keywords, the *variable* will have a global scope.
+In this example, we assigned the *string* `"John"` to the `valueName` using the variable keyword `var`. If you don't use any of the 3 *variable* keywords, the *variable* will have a global scope.
 
 `var` is the only keyword that was used to declare a *variable* before ES6. Take a look at the table below to better understand the differences between `var`, `let`, and `const`. This will give you a good grasp of how *hoisting* and *scope* work.
 
