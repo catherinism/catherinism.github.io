@@ -23,6 +23,9 @@ I never actually imagined that my final project was going to be about "feelings.
 *  And since I took a break for months, I forgot most of the React lessons. Aside from the lessons in Learn.co, I reviewed React through [Scrimba](https://scrimba.com/g/glearnreact). I discovered it through [FreeCodeCamp](https://www.youtube.com/watch?v=DLX62G4lc44&t=2554s).
  
 >  "Scrimba lets you play around with the instructor's code directly inside the screencast. As a result, you'll learn faster and have more fun.” 
+>  
+
+* Then, I watched 
  
  
  
