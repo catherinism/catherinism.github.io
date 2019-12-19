@@ -40,7 +40,7 @@ I watched more videos from the [Learn.co's videos](https://instruction.learn.co/
 
 **5. Added some styling**
 
-I currently work as a graphic designer, so in every project, it isn't very easy for me not to do some styling :D As I was searching for a framework to use, I realized that there are a lot of options that I can use! I tried Material UI, but it was too complicated for me, so I ended up using [Semantic UI React](https://react.semantic-ui.com/). I watched some tutorials, and [Molly's (a Flatiron School alumni) blog](https://dev.to/mccarronmollye/my-first-react-project-1ijk) helped me set it up. It still took me a day to do the styling because I think I enjoyed it too much:D
+I currently work as a graphic designer, so in every project, it isn't very easy for me not to do some styling :D As I was searching for a framework to use, I realized that there are a lot of options out there! I tried Material UI, but it was too complicated for me, so I ended up using [Semantic UI React](https://react.semantic-ui.com/). I watched some tutorials, and [Molly's (a Flatiron School alumni) blog](https://dev.to/mccarronmollye/my-first-react-project-1ijk) helped me set it up. It still took me a day to do the styling because I think I enjoyed it too much:D
 
 *Here are some screenshots of my final project.*
 
@@ -48,7 +48,7 @@ I currently work as a graphic designer, so in every project, it isn't very easy 
 ![](https://i.imgur.com/pEK2xhv.png)
 
 
-My Reac/Redux project is very simple but I'm very proud of it. It took a lot of research and studies to finish, but I really enjoyed the process. But I'm glad it's done and I'm ready for the next challege - career change!
+My Reac/Redux project is very simple but I'm very proud of it. It took a lot of research and studies to finish, but I really enjoyed the process. But I'm glad it's done and I'm ready for the next challenge - career change!
 
 
 
