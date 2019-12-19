@@ -48,7 +48,7 @@ I currently work as a graphic designer, so in every project, it isn't very easy 
 ![](https://i.imgur.com/pEK2xhv.png)
 
 
-My project is very simple but I'm pretty proud of it. It took a lot of research and studies to finish but I enjoyed the process. I'm glad it's done and I'm ready for the next challege! 
+My Reac/Redux project is very simple but I'm very proud of it. It took a lot of research and studies to finish, but I really enjoyed the process. But I'm glad it's done and I'm ready for the next challege - career change!
 
 
 
