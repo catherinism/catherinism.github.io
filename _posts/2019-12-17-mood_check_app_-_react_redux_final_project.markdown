@@ -41,7 +41,17 @@ It was actually in Sachin's blog that I've learned about the [Build Rails API Ba
 
 I watched more videos from the [Learn.co's videos](https://instruction.learn.co/student/video_lectures#/?query=React) like the Globetrotter series.
 
+**5. Added some styling to my project**
 
+I currently work as a graphic designer so in every project, it's difficult for me not to do some styling :D As I was searching for a framework, I realized that there are a lot of options that I can use! I tried Material UI but it was too complicated for me so I ended up using [Semantic UI React](https://react.semantic-ui.com/). I watched some tutorials and [Molly's (a Flatrion School alumni) blog](https://dev.to/mccarronmollye/my-first-react-project-1ijk) helped me set it up. It still took me a day to do the styling coz I think I enjoyed it too much:D
+
+*Here are some screenshots of my final project.*
+
+![](https://i.imgur.com/CoQmSVJ.png) 
+![](https://i.imgur.com/pEK2xhv.png)
+
+
+It took a lot of research and studies to finish this project. But I'm glad it's done and I'm ready for the next challege!
 
 
 
