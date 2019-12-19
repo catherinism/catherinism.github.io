@@ -25,8 +25,14 @@ I never actually imagined that my final project was going to be about "feelings.
 >  "Scrimba lets you play around with the instructor's code directly inside the screencast. As a result, you'll learn faster and have more fun.” 
 >  
 
-* Then, I watched 
- 
+* Then, I read some other students' blogs to check what helped them create the final project. One of them is [Sachin Majahan's](http://crackingthecode.net/final_project_react-redux_front-end_web_app_with_rails_api_back-end).
+
+* In his blog, I learned about the [Build Rails API Backend w React Frontend](Build Rails API Backend w React Frontend) video. It really helped me start my backend and frontend, and then connect them. I don't think I've seen it in the Learn.co's video lectures.
+
+* I watched more videos from the [Learn.co's videos](https://instruction.learn.co/student/video_lectures#/?query=React) like the Globetrotter series.
+
+
+
  
  
  
