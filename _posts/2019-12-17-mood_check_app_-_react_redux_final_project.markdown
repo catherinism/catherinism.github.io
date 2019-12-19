@@ -12,24 +12,34 @@ I never actually imagined that my final project was going to be about "feelings.
  
  Anyway, here are some of the things I did to finish my project.
  
-*  First, I created a mock-up using Adobe XD. Please take note that this is not exactly how my app looks like. I've done this with my previous projects, and it really helped me especially with the routes.
+**1. First, I created a mock-up using Adobe XD. **
+
+Please take note that this is not exactly how my app looks like. I've done this with my previous projects, and it really helped me visualize my project and how I want my routes to work. I was also inspired by the Momentum chrome app and meditation apps.
  
  ![](https://i.imgur.com/9pAUXuX.png)
  
  ![](https://i.imgur.com/wI43dEh.png)
  
  ![](https://i.imgur.com/leivnd8.png)
- 
-*  And since I took a break for months, I forgot most of the React lessons. Aside from the lessons in Learn.co, I reviewed React through [Scrimba](https://scrimba.com/g/glearnreact). I discovered it through [FreeCodeCamp](https://www.youtube.com/watch?v=DLX62G4lc44&t=2554s).
+** 
+**2. Review React**
+
+I took a break for months that I forgot most of the React lessons. Aside from the React lessons in Learn.co, I reviewed it through [Scrimba](https://scrimba.com/g/glearnreact). I discovered it through [FreeCodeCamp](https://www.youtube.com/watch?v=DLX62G4lc44&t=2554s).
  
 >  "Scrimba lets you play around with the instructor's code directly inside the screencast. As a result, you'll learn faster and have more fun.” 
 >  
 
-* Then, I read some other students' blogs to check what helped them create the final project. One of them is [Sachin Majahan's](http://crackingthecode.net/final_project_react-redux_front-end_web_app_with_rails_api_back-end).
+**3. Read other students blogs.**
+
+Other students' blog tremendously helped me in creating the final project. One of them is [Sachin Majahan's](http://crackingthecode.net/final_project_react-redux_front-end_web_app_with_rails_api_back-end).
 
 * In his blog, I learned about the [Build Rails API Backend w React Frontend](Build Rails API Backend w React Frontend) video. It really helped me start my backend and frontend, and then connect them. I don't think I've seen it in the Learn.co's video lectures.
 
-* I watched more videos from the [Learn.co's videos](https://instruction.learn.co/student/video_lectures#/?query=React) like the Globetrotter series.
+**4. Watched React/Redux videos**
+
+I watched more videos from the [Learn.co's videos](https://instruction.learn.co/student/video_lectures#/?query=React) like the Globetrotter series.
+
+
 
 
 
