@@ -48,8 +48,14 @@ I currently work as a graphic designer, so in every project, it isn't very easy 
 ![](https://i.imgur.com/pEK2xhv.png)
 
 
-My Reac/Redux project is very simple but I'm very proud of it. It took a lot of research and studies to finish, but I really enjoyed the process. But I'm glad it's done and I'm ready for the next challenge - career change!
+My React/Redux project is very simple but I'm very proud of it. It took a lot of research and studies to finish, but I really enjoyed the process. But I'm glad it's done and I'm ready for the next challenge - career change!
 
+**Update**
+It was difficult for me to study when I was still doing chemo, so I had to postponed my assessment. After my treatment and surgery, it took me time to get back into my project. But when I did, I was already confused with what I did so I decided to start from scratch. 
+
+I still did a Mood Check App but I changed the Quote model into Happening. Below is the walkthrough of my project.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X5iI0gWc98c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
  
