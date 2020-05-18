@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Mood Check App - React Redux Final Project"
+title:      "Mood Check App - React Redux Final Project(updated)"
 date:       2019-12-17 21:32:44 -0500
 permalink:  mood_check_app_-_react_redux_final_project
 ---
